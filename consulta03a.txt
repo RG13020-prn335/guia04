@@ -1,0 +1,1 @@
+SELECT DISTINCT r.idRol, r.idCategoria, FROM UsuarioRolCategoria, Usuario u JOIN u.UsuarioRolCategoria r WHERE r.idUsuario="Jhossymar Contreras"

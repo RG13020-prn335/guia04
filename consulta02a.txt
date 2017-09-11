@@ -1,0 +1,4 @@
+SELECT t.nombre, COUNT(t) as tip
+FROM Post p JOIN p.idTipoPost t
+GROUP BY y
+ORDER BY tip DESC
